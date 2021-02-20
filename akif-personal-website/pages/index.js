@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="mt-4 mb-4 md:mr-40 sm:mr-2 p-4 md:w-4/6 sm:w-5/6 rounded text-left text-base md:text-2xl sm:text-6xl">
         <p className="mt-8 text-4xl">Hi.</p>
-        <p className="mt-4 text-gray-800 sm:text-xl">My name is Mehmet Akif Özkanoğlu. I am a full time researcher pursuing a master of science on Computer Vision. My research interest is Object Detection, Tracking, SLAM for autononomous system and UAVs.</p>
+        <p className="mt-4 text-gray-800 sm:text-xl">My name is Mehmet Akif Özkanoğlu. I am a full time researcher pursuing a master of science on Computer Vision. My research interests are Object Detection, Tracking, SLAM for autononomous system and UAVs.</p>
         <p className="mt-8 text-gray-800">
           Feel free to contact me via: <a className="text-blue-400" href="mailto:makifozkanoglu@gmail.com">makifozkanoglu@gmail.com</a>
         </p>
