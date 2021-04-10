@@ -50,7 +50,7 @@ async function generateSitemap() {
     priority: 0.7
   }));
 */
-  const links = [...pageLinks, ...postLinks, ...tagLinks];
+  const links = [...pageLinks];//[...pageLinks, ...postLinks, ...tagLinks];
   const stream = new SitemapStream({ hostname: baseUrl });
 
   const xml = await streamToPromise(Readable.from(links).pipe(stream)).then((data) =>
