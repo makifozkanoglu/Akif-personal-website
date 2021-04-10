@@ -3,6 +3,9 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+}
+
+module.exports = {
   webpack: (config, { isServer }) => {
     if (isServer) {
       require('./lib/sitemap');
