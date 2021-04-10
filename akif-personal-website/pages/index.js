@@ -46,7 +46,7 @@ export default function Home() {
   )
 }
 
-
+/*
 export async function getStaticProps() {
   // ...
   //await generateRssFeed();
@@ -54,4 +54,4 @@ export async function getStaticProps() {
   return {
     props: { posts, ogImage, baseUrl },
   };
-}
+}*/
