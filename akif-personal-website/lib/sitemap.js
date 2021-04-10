@@ -60,4 +60,5 @@ async function generateSitemap() {
   fs.writeFileSync('./public/sitemap.xml', xml);
 }
 
-export default generateSitemap;
+//export default generateSitemap;
+generateSitemap()
