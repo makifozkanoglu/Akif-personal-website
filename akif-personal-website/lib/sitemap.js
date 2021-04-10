@@ -1,5 +1,5 @@
 const globby = require('globby');
-const contentful = require('./contentful').default;
+//const contentful = require('./contentful').default;
 const { SitemapStream, streamToPromise } = require('sitemap');
 const { Readable } = require('stream');
 const fs = require('fs');
@@ -33,7 +33,7 @@ async function generateSitemap() {
         : { url: path, changefreq: 'daily', priority: 0.7 };
     })
     .filter((page) => !blocklist.includes(page.url));
-
+/*
   // post routes
   const posts = await contentful.getEntries('post', { order: '-fields.publishedDate' });
   const postLinks = posts.map((post) => ({
@@ -49,7 +49,7 @@ async function generateSitemap() {
     changefreq: 'daily',
     priority: 0.7
   }));
-
+*/
   const links = [...pageLinks, ...postLinks, ...tagLinks];
   const stream = new SitemapStream({ hostname: baseUrl });
 
