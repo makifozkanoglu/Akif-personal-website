@@ -1,12 +1,15 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+import { NextSeo } from 'next-seo';
+
 export default function Home() {
   return (
     <div className="flex justify-center">
-      <Head>
-        <title>Mehmet Akif Özkanoğlu</title>
-      </Head>
+    <NextSeo
+      title="Mehmet Akif Özkanoğlu"
+      description="Personal Website"
+    />
 
       <div className="mt-4 mb-4 md:mr-40 sm:mr-2 p-4 md:w-4/6 sm:w-5/6 rounded text-left text-base md:text-2xl sm:text-6xl">
         <p className="mt-8 text-4xl">Hi.</p>
