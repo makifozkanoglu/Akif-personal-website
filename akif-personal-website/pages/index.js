@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 //import generateRssFeed from '../lib/rss.js'
-import generateSitemap from '../lib/sitemap.js'
+//import generateSitemap from '../lib/sitemap.js'
 
 import { NextSeo } from 'next-seo';
 
